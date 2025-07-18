@@ -1,25 +1,43 @@
-# 🎤 Speech Recognition Using Python
+# 🗣️ Speech Recognition Using Python
 
-A simple and effective Speech Recognition system built using Python, SpeechRecognition, PyAudio, and Google Speech API. This project converts real-time voice input into text, handles background noise, and supports basic voice-based commands, demonstrating the integration of speech recognition and natural language processing (NLP).
+A simple yet powerful Speech Recognition system built using Python. This project leverages popular libraries to convert real-time speech into text, handle noise and errors, and support voice commands through Google’s Speech API.
 
 ---
 
 ## 📌 Features
 
-- 🎙️ Real-time speech-to-text conversion  
-- 🔊 Handles ambient noise for accurate transcription  
-- 🌐 Uses Google Speech Recognition API for enhanced accuracy  
-- 🧠 Supports simple voice-based commands  
-- 🛠️ Error and exception handling included
+- 🎤 Real-time speech-to-text conversion
+- 🌐 Google Speech API integration
+- 🔇 Noise and error handling
+- 🧠 Voice command support
+- 💡 Easy-to-understand Python code
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Python 3.8+**
-- **SpeechRecognition** – for speech-to-text conversion  
-- **PyAudio** – to capture audio from the microphone  
-- **Google Speech API** – cloud-based recognition engine
+- **SpeechRecognition**
+- **PyAudio**
+- **Google Speech API**
+
+---
+
+## 📁 Project Structure
+
+- `speech_recognition.py` - Main script to run speech recognition
+- `README.md` - Project documentation
+- `.gitignore` - Git ignore rules
+- `.gitattributes` - GitHub linguist settings
+
+---
+
+## 🎯 Use Cases
+
+- **Voice-controlled applications**
+- **Virtual assistants**
+- **Accessibility for visually impaired users**
+- **Hands-free command systems**
 
 ---
 
@@ -27,29 +45,8 @@ A simple and effective Speech Recognition system built using Python, SpeechRecog
 
 ### 🔧 Prerequisites
 
-Before running the project, ensure you have the following installed:
+Make sure you have Python installed along with `pip`. Then install the required libraries:
 
-``bash
+```bash
 pip install SpeechRecognition
 pip install PyAudio
-
-
-▶️How to Run
-
-python speech_recognition.py
-
-
-📁 Project Structure
-
-├── speech_recognition.py       # Main script to run the system
-├── README.md                   # Project documentation
-├── .gitignore                  # Files ignored by Git
-└── .gitattributes              # GitHub linguist settings
-
-
-🎯 Use Cases
-
--Voice-controlled applications
--Virtual assistants
--Accessibility for visually impaired users
--Hands-free command systems
