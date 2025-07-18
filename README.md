@@ -49,8 +49,7 @@ python speech_recognition.py
 
 🎯 Use Cases
 
-   Voice-controlled applications
-   Virtual assistants
-   Accessibility for visually impaired users
-   Hands-free command systems
-
+-Voice-controlled applications
+-Virtual assistants
+-Accessibility for visually impaired users
+-Hands-free command systems
