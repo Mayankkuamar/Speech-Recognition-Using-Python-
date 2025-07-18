@@ -41,7 +41,6 @@ python speech_recognition.py
 
 📁 Project Structure
 
-.
 ├── speech_recognition.py       # Main script to run the system
 ├── README.md                   # Project documentation
 ├── .gitignore                  # Files ignored by Git
